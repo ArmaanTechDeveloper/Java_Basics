@@ -1,5 +1,6 @@
 import java.util.*;
- class Subtext{
+
+class Subtext {
     public static void text(String s){
         String s = s.toLowerCase();
         String a[] = s.split(" ");
@@ -12,8 +13,9 @@ import java.util.*;
             }
         }
     }
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println(" Enter the string ");
         String s = sc.nextLine();
         System.out.println(text(s));

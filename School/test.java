@@ -8,7 +8,7 @@ class test{
         int b=56;
         int c=a+b;
         System.out.println(" The added number is "+c);
-
+        
         sc.close();
     }
 }

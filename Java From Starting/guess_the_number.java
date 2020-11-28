@@ -1,47 +1,80 @@
 import java.util.Scanner;
 import java.util.Random;
 
-class game {
+class guessgame {
+    public int random;
+    public int userinput;
+    Scanner sc = new Scanner(System.in);
 
-    int number;
-    int guessNumber;
-    int score;
-
-    game() {
-
+    guessgame() {
         Random r = new Random();
-        number = r.nextInt(100);
+        random = r.nextInt(100);
     }
 
-    void takeUserInput() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(" Enter the number ");
-        guessNumber = sc.nextInt();
-        System.out.println("Generated number is " + number);
+    public void enternumber() {
+        System.out.println(" Enter Your choice ");
     }
 
-    boolean isCorrect() {
-        if (number > guessNumber) {
-            System.out.println(" Enter lower number please ");
-        } else if (guessNumber > number) {
-            System.out.println(" Enter higher number please");
-        } else if (guessNumber == number) {
-            System.out.println(" You guessed the number ");
-            return true;
+    public void takeUserInput() {
+        userinput = sc.nextInt();
+    }
+
+    public void checkInput() {
+        if (userinput < 0 || userinput > 100) {
+            System.out.println(" Invalid input ");
         }
-        return false;
     }
+
+    public void checkgame() {
+        if (userinput < random) {
+            System.out.println(" Enter a higher number !");
+        } else if (userinput > random) {
+            System.out.println(" Enter a lower number ! ");
+        } else {
+            System.out.println(" Your guessed the number ");
+        }
+
+    }
+
+    public void rules() {
+        System.out.println("\n\n Welcome to guess the number game !");
+        System.out.println(" You have to guess the number according to the computers hint ");
+        System.out.println(" press 's' to start :) ");
+    }
+
+    public boolean checks() {
+        char c = sc.next().charAt(0);
+        if (c == 's') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
 
 public class guess_the_number {
     public static void main(String[] args) {
-        game g = new game();
-
-        boolean k = false;
-        while (!k) {
-            g.takeUserInput();
-            k = g.isCorrect();
-            System.out.println(k);
+        
+        guessgame game = new guessgame();
+        game.rules();
+        boolean k= game.checks();
+        int score = 0;
+        
+        if(k){
+            game.enternumber();
+            do{
+                game.takeUserInput();
+                game.checkInput();
+                game.checkgame();
+                score++;
+            }
+            while(game.userinput != game.random);
         }
+        else if(k == false) 
+        {
+            System.out.println(" Your are not ready to start the game ! ");
+        }
+        System.out.println(" You gussed it in "+score+" attempts");
     }
 }

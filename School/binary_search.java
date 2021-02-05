@@ -18,11 +18,12 @@ public class binary_search {
         System.out.println(" Enter the element to be searched ");
         int d = sc.nextInt();
 
-        int li = 0 , hi = n-1 , mi = (li+hi)/2 , f=0;
+        int li = 0 , hi = n-1 , mi = (li+hi)/2 , f=0 , pos ;
         while(li<=hi) {
             if (arr[mi] == d) {
                 f = 1;
-                System.out.println(" The number you entered is founded in the array ");
+                pos = mi ;
+                System.out.println(" The number you entered is founded in the array at the position : "+(pos+1));
                 break;
             } else if (arr[mi] < d) {
                 li = mi + 1;

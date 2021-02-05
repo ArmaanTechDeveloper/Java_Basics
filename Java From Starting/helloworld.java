@@ -1,7 +1,8 @@
+import java.util.Scanner;
 public class helloworld {
     public static void main(String[] args) {
-        System.out.println(" Hello world");
-        System.out.println(" This is my first program in intellij ");
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println(" Hello World ");
     }
 }

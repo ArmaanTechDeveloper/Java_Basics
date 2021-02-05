@@ -29,13 +29,13 @@ public class linear_Search {
         // if we wan to display the index number then we use the normal like like
         // For now i have commented out the code
 
+
 //        for(int i = 0 ; i<arr.length ; i++){
 //            if(arr[i] == key){
 //                f= true;
 //                System.out.println(" The number you entered is found in the array at position " +(i+1));
 //            }
 //        }
-
         if(f==false){
             System.out.println(" The number you entered is not present in the array ");
         }

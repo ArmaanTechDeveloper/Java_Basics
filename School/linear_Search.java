@@ -39,5 +39,6 @@ public class linear_Search {
         if(f==false){
             System.out.println(" The number you entered is not present in the array ");
         }
+        sc.close();
     }
 }

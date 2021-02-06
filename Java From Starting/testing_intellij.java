@@ -10,5 +10,6 @@ public class testing_intellij {
         b = sc.nextInt();
         int c = a + b;
         System.out.println(" Sum of both the numbers is : " + c);
+        sc.close();
     }
 }

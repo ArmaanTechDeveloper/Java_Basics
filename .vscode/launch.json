@@ -1,0 +1,553 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ps_8_redo",
+            "request": "launch",
+            "mainClass": "ps_8_redo",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Marks",
+            "request": "launch",
+            "mainClass": "Marks",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch custom_class",
+            "request": "launch",
+            "mainClass": "custom_class",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch first_class_oops",
+            "request": "launch",
+            "mainClass": "first_class_oops",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch guess_the_number",
+            "request": "launch",
+            "mainClass": "guess_the_number",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch marks2",
+            "request": "launch",
+            "mainClass": "marks2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch method_overloading",
+            "request": "launch",
+            "mainClass": "method_overloading",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch methods",
+            "request": "launch",
+            "mainClass": "methods",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch online_library",
+            "request": "launch",
+            "mainClass": "online_library",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_10_prob1",
+            "request": "launch",
+            "mainClass": "ps_10_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_10_prob2",
+            "request": "launch",
+            "mainClass": "ps_10_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_1_prob1",
+            "request": "launch",
+            "mainClass": "ps_1_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_1_prob2",
+            "request": "launch",
+            "mainClass": "ps_1_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_1_prob3",
+            "request": "launch",
+            "mainClass": "ps_1_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_1_prob4",
+            "request": "launch",
+            "mainClass": "ps_1_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_1_prob5",
+            "request": "launch",
+            "mainClass": "ps_1_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_2_prob1",
+            "request": "launch",
+            "mainClass": "ps_2_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_2_prob2",
+            "request": "launch",
+            "mainClass": "ps_2_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_2_prob3",
+            "request": "launch",
+            "mainClass": "ps_2_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_2_prob4",
+            "request": "launch",
+            "mainClass": "ps_2_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_2_prob5",
+            "request": "launch",
+            "mainClass": "ps_2_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_3_prob1",
+            "request": "launch",
+            "mainClass": "ps_3_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_3_prob2",
+            "request": "launch",
+            "mainClass": "ps_3_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_3_prob3",
+            "request": "launch",
+            "mainClass": "ps_3_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_3_prob4",
+            "request": "launch",
+            "mainClass": "ps_3_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_3_prob5",
+            "request": "launch",
+            "mainClass": "ps_3_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_4_prob2",
+            "request": "launch",
+            "mainClass": "ps_4_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_4_prob3",
+            "request": "launch",
+            "mainClass": "ps_4_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_4_prob5",
+            "request": "launch",
+            "mainClass": "ps_4_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_4_prob6",
+            "request": "launch",
+            "mainClass": "ps_4_prob6",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_4_prob_4",
+            "request": "launch",
+            "mainClass": "ps_4_prob_4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob1",
+            "request": "launch",
+            "mainClass": "ps_5_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob2",
+            "request": "launch",
+            "mainClass": "ps_5_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob3",
+            "request": "launch",
+            "mainClass": "ps_5_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob4",
+            "request": "launch",
+            "mainClass": "ps_5_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob5",
+            "request": "launch",
+            "mainClass": "ps_5_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob6",
+            "request": "launch",
+            "mainClass": "ps_5_prob6",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob7",
+            "request": "launch",
+            "mainClass": "ps_5_prob7",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_5_prob9",
+            "request": "launch",
+            "mainClass": "ps_5_prob9",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob1",
+            "request": "launch",
+            "mainClass": "ps_6_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob2",
+            "request": "launch",
+            "mainClass": "ps_6_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob3",
+            "request": "launch",
+            "mainClass": "ps_6_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob4",
+            "request": "launch",
+            "mainClass": "ps_6_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob5",
+            "request": "launch",
+            "mainClass": "ps_6_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob6",
+            "request": "launch",
+            "mainClass": "ps_6_prob6",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob7",
+            "request": "launch",
+            "mainClass": "ps_6_prob7",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_6_prob8",
+            "request": "launch",
+            "mainClass": "ps_6_prob8",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob1",
+            "request": "launch",
+            "mainClass": "ps_7_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob2",
+            "request": "launch",
+            "mainClass": "ps_7_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob3",
+            "request": "launch",
+            "mainClass": "ps_7_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob4",
+            "request": "launch",
+            "mainClass": "ps_7_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob5",
+            "request": "launch",
+            "mainClass": "ps_7_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob6",
+            "request": "launch",
+            "mainClass": "ps_7_prob6",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob7",
+            "request": "launch",
+            "mainClass": "ps_7_prob7",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_7_prob9",
+            "request": "launch",
+            "mainClass": "ps_7_prob9",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_8_prob1",
+            "request": "launch",
+            "mainClass": "ps_8_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_8_prob2",
+            "request": "launch",
+            "mainClass": "ps_8_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_8_prob3",
+            "request": "launch",
+            "mainClass": "ps_8_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_8_prob4",
+            "request": "launch",
+            "mainClass": "ps_8_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_8_prob5",
+            "request": "launch",
+            "mainClass": "ps_8_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_8_prob6",
+            "request": "launch",
+            "mainClass": "ps_8_prob6",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_9_prob1",
+            "request": "launch",
+            "mainClass": "ps_9_prob1",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_9_prob2",
+            "request": "launch",
+            "mainClass": "ps_9_prob2",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_9_prob3",
+            "request": "launch",
+            "mainClass": "ps_9_prob3",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_9_prob4",
+            "request": "launch",
+            "mainClass": "ps_9_prob4",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ps_9_prob5",
+            "request": "launch",
+            "mainClass": "ps_9_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion",
+            "request": "launch",
+            "mainClass": "recursion",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion_practise",
+            "request": "launch",
+            "mainClass": "recursion_practise",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursionpower",
+            "request": "launch",
+            "mainClass": "recursionpower",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursionsum",
+            "request": "launch",
+            "mainClass": "recursionsum",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch rockpaperscissor",
+            "request": "launch",
+            "mainClass": "rockpaperscissor",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch testing_intellij",
+            "request": "launch",
+            "mainClass": "testing_intellij",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch testingvscode",
+            "request": "launch",
+            "mainClass": "testingvscode",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch this_super",
+            "request": "launch",
+            "mainClass": "this_super",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch varargs",
+            "request": "launch",
+            "mainClass": "varargs",
+            "projectName": "Java_90dc9b9"
+        }
+    ]
+}

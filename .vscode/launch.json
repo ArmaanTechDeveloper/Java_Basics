@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch odd_eve_arraysum",
+            "request": "launch",
+            "mainClass": "odd_eve_arraysum",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial_maths",
+            "request": "launch",
+            "mainClass": "factorial_maths",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch ps_8_redo",
             "request": "launch",
             "mainClass": "ps_8_redo",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch constructor",
+            "request": "launch",
+            "mainClass": "constructor",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch getter_setter_redo",
             "request": "launch",
             "mainClass": "getter_setter_redo",

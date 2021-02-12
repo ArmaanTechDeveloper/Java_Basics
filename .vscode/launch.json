@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch guess_no_oops",
+            "request": "launch",
+            "mainClass": "guess_no_oops",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch constructor",
             "request": "launch",
             "mainClass": "constructor",

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch recursion_factorial",
+            "request": "launch",
+            "mainClass": "recursion_factorial",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator_method",
+            "request": "launch",
+            "mainClass": "calculator_method",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch selection_sort",
             "request": "launch",
             "mainClass": "selection_sort",

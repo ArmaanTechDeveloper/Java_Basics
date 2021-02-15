@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ps_9_redo",
+            "request": "launch",
+            "mainClass": "ps_9_redo",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch recursion_factorial",
             "request": "launch",
             "mainClass": "recursion_factorial",

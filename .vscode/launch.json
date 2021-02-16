@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ps_10_prob5",
+            "request": "launch",
+            "mainClass": "ps_10_prob5",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch dynamic_dispatch",
+            "request": "launch",
+            "mainClass": "dynamic_dispatch",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch ps_9_redo",
             "request": "launch",
             "mainClass": "ps_9_redo",

@@ -33,15 +33,23 @@ public class calculator_method {
             System.out.println(" Enter two numbers ");
             int x = sc.nextInt();
             int y = sc.nextInt();
-            if (in == 'a') {
+            switch(in){
+                case 'a':
                 ob.add(x, y);
-            } else if (in == 's') {
+                break;
+                case 's':
                 ob.substract(x, y);
-            } else if (in == 'm') {
+                break;
+                case 'm':
                 ob.multiply(x, y);
-            } else if (in == 'd') {
+                break;
+                case 'd':
                 ob.divide(x, y);
-            } 
+                break;
+                default :
+                System.out.println(" Invalid input ");
+                break;
+            }
         }
         sc.close();
     }

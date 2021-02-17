@@ -20,4 +20,5 @@ public class ps_10_prob5 {
     public static void main(String[] args) {
         derived20 ob = new derived20();
     }
+    
 }

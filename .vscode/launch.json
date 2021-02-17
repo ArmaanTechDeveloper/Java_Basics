@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch abstract_class",
+            "request": "launch",
+            "mainClass": "abstract_class",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch ps_10_prob5",
             "request": "launch",
             "mainClass": "ps_10_prob5",

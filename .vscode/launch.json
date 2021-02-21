@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch matirix_sum",
+            "request": "launch",
+            "mainClass": "matirix_sum",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch matrix_diagonal",
+            "request": "launch",
+            "mainClass": "matrix_diagonal",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch abstract_class",
             "request": "launch",
             "mainClass": "abstract_class",

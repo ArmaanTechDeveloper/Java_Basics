@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WritingFile",
+            "request": "launch",
+            "mainClass": "WritingFile",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch createFile",
+            "request": "launch",
+            "mainClass": "createFile",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch matirix_sum",
             "request": "launch",
             "mainClass": "matirix_sum",

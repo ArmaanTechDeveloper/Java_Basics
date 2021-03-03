@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch twoDmaxElement",
+            "request": "launch",
+            "mainClass": "twoDmaxElement",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraymaxElement",
+            "request": "launch",
+            "mainClass": "ArraymaxElement",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arraymax",
+            "request": "launch",
+            "mainClass": "Arraymax",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordWise",
+            "request": "launch",
+            "mainClass": "WordWise",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch WritingFile",
             "request": "launch",
             "mainClass": "WritingFile",

@@ -3,9 +3,8 @@ public class twoDmaxElement {
         int[][] arr = { { 1, 2, 3 }, { 8, 6, 7 }, { 1 , 50 , 20 } };
         int i, j, max = 0;
         for (i = 0; i < arr.length; i++) {
+            max = arr[i][0];
             for (j = 0; j < arr.length; j++) {
-
-                max = arr[i][0];
 
                 if (max < arr[i][j]) {
                     max = arr[i][j];

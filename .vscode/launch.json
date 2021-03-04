@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RowToColumn",
+            "request": "launch",
+            "mainClass": "RowToColumn",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch twoDmaxElement",
             "request": "launch",
             "mainClass": "twoDmaxElement",

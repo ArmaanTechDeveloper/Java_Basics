@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch duplicate_character",
+            "request": "launch",
+            "mainClass": "duplicate_character",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch RowToColumn",
             "request": "launch",
             "mainClass": "RowToColumn",

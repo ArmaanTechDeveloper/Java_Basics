@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArraySearch",
+            "request": "launch",
+            "mainClass": "ArraySearch",
+            "projectName": "Java_90dc9b9"
+        },
+        {
+            "type": "java",
             "name": "Launch swap_prob1_pro",
             "request": "launch",
             "mainClass": "swap_prob1_pro",

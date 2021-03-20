@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch interfaces",
+            "request": "launch",
+            "mainClass": "interfaces",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Launch helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Launch ArraySearch",
             "request": "launch",
             "mainClass": "ArraySearch",

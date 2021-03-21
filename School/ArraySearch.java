@@ -2,12 +2,10 @@ import java.util.Scanner;
 public class ArraySearch {
     Scanner sc = new Scanner(System.in);
     int N[] ;
-    int limit;
+    int l;
     void accept(int m){
-        
-        System.out.println("Enter the Length of the array");
-        limit = sc.nextInt();
-        this.N = new int [limit];
+        m = this.l;
+        this.N = new int [l];
     }
     void readelements(){
         

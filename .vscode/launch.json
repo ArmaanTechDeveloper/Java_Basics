@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch howdoyou",
+            "request": "launch",
+            "mainClass": "howdoyou",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Launch hexadecimal",
+            "request": "launch",
+            "mainClass": "hexadecimal",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Launch date_prob5_pro",
+            "request": "launch",
+            "mainClass": "date_prob5_pro",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Launch interfaces",
             "request": "launch",
             "mainClass": "interfaces",

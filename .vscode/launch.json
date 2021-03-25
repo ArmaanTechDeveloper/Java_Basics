@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap_prob1",
+            "request": "launch",
+            "mainClass": "swap_prob1",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Launch polymorphism",
+            "request": "launch",
+            "mainClass": "polymorphism",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryToDecimal",
             "request": "launch",
             "mainClass": "BinaryToDecimal",

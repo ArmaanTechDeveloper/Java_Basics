@@ -30,7 +30,7 @@ public class Main{
                 }
             }
         }
-        if(MatchCount == count){
+        if(MatchCount <= count){
             System.out.println(" same series ");
         }
         else{

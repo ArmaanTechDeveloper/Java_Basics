@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch magicrecur",
+            "request": "launch",
+            "mainClass": "magicrecur",
+            "projectName": "Java_Basics_d79fb2a9"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
